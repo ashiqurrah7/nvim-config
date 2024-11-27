@@ -1,0 +1,10 @@
+## custom-remaps
+Copy selection to clipboard | <leader>y
+Copy line to clipboard | <leader>Y
+Open explorer | <leader>pv
+Delete selected word but don't copy into register | <leader>d
+Replace all instances of current word | <leader>s
+chmod +x on current file | <leader>x
+Find files in project folder | <leader>ff
+Grep string in project folder | <leader>fs
+Grep selection in project folder | <leader>ps
