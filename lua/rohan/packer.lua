@@ -53,6 +53,11 @@ return require('packer').startup(function(use)
   use('tpope/vim-fugitive')
 
   use {
+    'echasnovski/mini.comment',
+    branch = 'stable'
+  }
+
+  use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
 	  requires = {
