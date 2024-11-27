@@ -54,7 +54,10 @@ return require('packer').startup(function(use)
 
   use {
     'echasnovski/mini.comment',
-    branch = 'stable'
+    branch = 'stable',
+    config = function()
+      require('mini.comment').setup()
+    end,
   }
 
   use {
