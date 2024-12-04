@@ -1,7 +1,7 @@
 local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
-local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
+require('cmp_nvim_lsp').default_capabilities()
 
 lsp.ensure_installed({
   'eslint',
