@@ -7,11 +7,13 @@ lsp.ensure_installed({
   'eslint',
   'lua_ls',
   'rust_analyzer',
+  'ts_ls',
   'rubocop',
   'jsonls',
   'html',
   'cssls',
   'clangd',
+  'gopls',
 })
 
 
