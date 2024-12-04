@@ -12,8 +12,6 @@ lsp.ensure_installed({
   'jsonls',
   'html',
   'cssls',
-  'clangd',
-  'gopls',
 })
 
 
@@ -62,14 +60,6 @@ lsp.on_attach(function(client, bufnr)
 end)
 
 lsp.setup()
-
-require('lspconfig').clangd.setup({
-  on_attach = function(client, bufnr)
-    client.server_capabilities.signatureHelpProvider = false
-    on_attach(client, bufnr)
-  end,
-  capabilities = lsp_capabilities,
-})
 
 vim.diagnostic.config({
     virtual_text = true
