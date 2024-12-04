@@ -1,3 +1,4 @@
 undodir
 os_set.lua
 .DS_Store
+.env

@@ -12,6 +12,7 @@ lsp.ensure_installed({
   'jsonls',
   'html',
   'cssls',
+  'gopls',
 })
 
 
