@@ -85,7 +85,7 @@ _G.packer_plugins = {
     url = "https://github.com/sudormrfbin/cheatsheet.nvim"
   },
   ["cmp-dotenv"] = {
-    config = { "\27LJ\2\nh\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0004\3\3\0005\4\3\0>\4\1\3=\3\5\2B\0\2\1K\0\1\0\fsources\1\0\1\fsources\0\1\0\1\tname\vdotenv\nsetup\bcmp\frequire\0" },
+    config = { "\27LJ\2\nà\1\0\0\b\0\r\0\0196\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\v\0004\4\3\0005\5\3\0>\5\1\0045\5\4\0005\6\b\0009\a\5\0009\a\6\a9\a\a\a=\a\t\6=\6\n\5>\5\2\4=\4\f\3B\1\2\1K\0\1\0\fsources\1\0\1\fsources\0\voption\14item_kind\1\0\1\14item_kind\0\rVariable\23CompletionItemKind\blsp\1\0\2\tname\vdotenv\voption\0\1\0\1\tname\rnvim_lsp\nsetup\bcmp\frequire\0" },
     loaded = true,
     path = "/Users/rohan/.local/share/nvim/site/pack/packer/start/cmp-dotenv",
     url = "https://github.com/SergioRibera/cmp-dotenv"
@@ -191,22 +191,22 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: codecompanion.nvim
-time([[Config for codecompanion.nvim]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18codecompanion\frequire\0", "config", "codecompanion.nvim")
-time([[Config for codecompanion.nvim]], false)
+-- Config for: cmp-dotenv
+time([[Config for cmp-dotenv]], true)
+try_loadstring("\27LJ\2\nà\1\0\0\b\0\r\0\0196\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\v\0004\4\3\0005\5\3\0>\5\1\0045\5\4\0005\6\b\0009\a\5\0009\a\6\a9\a\a\a=\a\t\6=\6\n\5>\5\2\4=\4\f\3B\1\2\1K\0\1\0\fsources\1\0\1\fsources\0\voption\14item_kind\1\0\1\14item_kind\0\rVariable\23CompletionItemKind\blsp\1\0\2\tname\vdotenv\voption\0\1\0\1\tname\rnvim_lsp\nsetup\bcmp\frequire\0", "config", "cmp-dotenv")
+time([[Config for cmp-dotenv]], false)
 -- Config for: github-nvim-theme
 time([[Config for github-nvim-theme]], true)
 try_loadstring("\27LJ\2\nn\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme github_dark\bcmd\bvim\nsetup\17github-theme\frequire\0", "config", "github-nvim-theme")
 time([[Config for github-nvim-theme]], false)
+-- Config for: codecompanion.nvim
+time([[Config for codecompanion.nvim]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18codecompanion\frequire\0", "config", "codecompanion.nvim")
+time([[Config for codecompanion.nvim]], false)
 -- Config for: mini.comment
 time([[Config for mini.comment]], true)
 try_loadstring("\27LJ\2\n:\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\17mini.comment\frequire\0", "config", "mini.comment")
 time([[Config for mini.comment]], false)
--- Config for: cmp-dotenv
-time([[Config for cmp-dotenv]], true)
-try_loadstring("\27LJ\2\nh\0\0\5\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0004\3\3\0005\4\3\0>\4\1\3=\3\5\2B\0\2\1K\0\1\0\fsources\1\0\1\fsources\0\1\0\1\tname\vdotenv\nsetup\bcmp\frequire\0", "config", "cmp-dotenv")
-time([[Config for cmp-dotenv]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

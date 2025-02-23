@@ -17,12 +17,14 @@ return require('packer').startup(function(use)
   use {
     'SergioRibera/cmp-dotenv',
     config = function()
-      require('cmp').setup {
+      local cmp = require('cmp')
+      cmp.setup {
         sources = {
+          { name = 'nvim_lsp' },
           {
             name = "dotenv",
             option = {
-              path = '../../'
+              item_kind = cmp.lsp.CompletionItemKind.Variable,
             }
         }
         }

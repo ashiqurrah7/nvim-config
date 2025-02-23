@@ -1,1 +1,1 @@
-vim.opt.undodir = "~/.config/nvim/undodir"
+vim.opt.undodir = "/Users/rohan/.config/nvim/undodir"

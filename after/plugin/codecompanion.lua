@@ -1,4 +1,4 @@
-local api = os.getenv("API_KEY")
+local api = os.getenv("OPENAI_API_KEY")
 
 require("codecompanion").setup({
   strategies = {
